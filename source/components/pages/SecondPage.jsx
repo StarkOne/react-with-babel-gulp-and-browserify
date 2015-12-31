@@ -1,11 +1,15 @@
 import * as React from 'react';
 
-class SecondPage extends React.Component {
+export class SecondPage extends React.Component {
+    state = {};
+    
+    constructor(props) {
+        super(props);
+    }
+    
     render() {
         return (
             <h1>Second Page</h1>
         );
     }
 }
-
-export default SecondPage;

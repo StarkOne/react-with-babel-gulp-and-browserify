@@ -1,11 +1,15 @@
 import * as React from 'react';
 
-class FirstPage extends React.Component {
+export class FirstPage extends React.Component {
+    state = {};
+    
+    constructor(props) {
+        super(props);
+    }
+    
     render() {
         return (
             <h1>First Page</h1>
         );
     }
 }
-
-export default FirstPage;
