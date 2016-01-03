@@ -33,4 +33,4 @@ npm run build
 printf "${YELLOW}All done, you can open project in your browser${NC} \n"
 
 echo "In order to revert the process just use this command"
-echo "$ npm uninstall react react-dom react-router && npm install"
+echo "$ npm uninstall react react-dom react-router history && npm install && npm run build"
